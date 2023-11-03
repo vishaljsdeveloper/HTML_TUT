@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1px">
+        <caption>table example</caption>
+        <tr>
+            <th>column1</th>
+            <th>column2</th>
+            <th>column3</th>
+        </tr>
+        <tr>
+            <td>data1</td>
+            <td>data2</td>
+            <td>data3</td>
+        </tr>
+        <tr>
+            <td>data4</td>
+            <td>data5</td>
+            <td>data6</td>
+        </tr>
+        <tr>
+            <td>data7</td>
+            <td>data8</td>
+            <td>data9</td>
+        </tr>
+    </table>
+    <hr>
+    <!--HEADING IN ROW EARLIER IT WAS IN COLUMN-->
+    <table border="1px">
+
+        <tr>
+            <th>row1</th>
+            <td>data1</td>
+            <td>data2</td>
+            <td>data3</td>
+        </tr>
+        <tr>
+            <th>row2</th>
+            <td><img src="image/abc.jpg" </td>
+            <td><a href="https://www.google.com">google</a></td>
+            <td>data6</td>
+        </tr>
+        <tr>
+            <th>row3</th>
+            <td>data7</td>
+            <td>data8</td>
+            <td>data9</td>
+        </tr>
+
+    </table>
+    <hr>
+    <!--ROWSPAN AND COLSPAN-->
+    <table border="1px">
+
+        <tr>
+            <th>row1</th>
+            <td colspan="2">data1</td>
+            <td>data2</td>
+        </tr>
+        <tr>
+            <th>row2</th>
+            <td><img src="image/abc.jpg" </td>
+            <td><a href="https://www.google.com">google</a></td>
+            <td>data6</td>
+        </tr>
+        <tr>
+            <th rowspan="3">row3</th>
+            <td>data7</td>
+            <td>data8</td>
+            <td>data9</td>
+        </tr>
+        <tr>
+            <td>data7</td>
+            <td>data8</td>
+            <td>data9</td>
+        </tr>
+        <tr>
+            <td>data7</td>
+            <td>data8</td>
+            <td>data9</td>
+        </tr>
+    </table>
+    <hr>
+    <!--THEAD , TBODY and TFOOT-->
+    <table border="1px">
+        <thead style="color:red">
+            <tr>
+                <th>column1</th>
+                <th>column2</th>
+                <th>column3</th>
+            </tr>
+        </thead>
+        <tbody style="color:green">
+            <tr>
+                <td>data1</td>
+                <td>data2</td>
+                <td>data3</td>
+            </tr>
+            <tr>
+                <td>data4</td>
+                <td>data5</td>
+                <td>data6</td>
+            </tr>
+            <tr>
+                <td>data7</td>
+                <td>data8</td>
+                <td>data9</td>
+            </tr>
+        </tbody>
+        <tfoot style="color:red">
+            <tr>
+                <th>column1</th>
+                <th>column2</th>
+                <th>column3</th>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <!--nested table = naya table hamesha td ke under banega-->
+    <table border="1px">
+        <thead style="color:red">
+            <tr>
+                <th>column1</th>
+                <th>column2</th>
+                <th>column3</th>
+            </tr>
+        </thead>
+        <tbody style="color:green">
+            <tr>
+                <td>data1</td>
+                <td>data2</td>
+                <td>data3</td>
+            </tr>
+            <tr>
+                <td>data4</td>
+                <td>
+                    <table border="2px">
+                        <tr>
+                            <td>col1</td>
+                            <td>col2</td>
+                        </tr>
+                        <tr>
+                            <td>col3</td>
+                            <td>col4</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>data6</td>
+            </tr>
+            <tr>
+                <td>data7</td>
+                <td>data8</td>
+                <td>data9</td>
+            </tr>
+        </tbody>
+        <tfoot style="color:red">
+            <tr>
+                <th>column1</th>
+                <th>column2</th>
+                <th>column3</th>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+
+</body>
+
+</html>

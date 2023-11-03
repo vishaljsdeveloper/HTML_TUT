@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>radiobutton</title>
+</head>
+<body>
+    <form>
+        <!--name sabka same hona chahiye. agar name different hai ya name diya hi nai hai to multiple selection hoga-->
+        TITLE &nbsp<input type="radio" value="male" name="gender">male
+        <input type="radio" value="female" name="gender">female
+        <input type="radio" value="other" name="gender">other
+        <br><br>
+                <!--checked use hota hai defaukt selection ke liye-->
+                <input type="radio" value="manager" name="post">manager
+                <input type="radio" value="designer" name="post" checked>designer
+                <input type="radio" value="developer" name="post">developer
+    </form>
+    <br><br>
+    <form>
+        <!--checkbox : 1 value le liye multile chij ko choose kar sakte hai
+        1 hi name se multiple value fetch karna ho to use karte hai jo ki radiobutton me possible nai hai
+    radio button me name different karna parta hai multiple selection ke liye-->
+        <input type="checkbox" name="sports">cricket
+        <input type="checkbox" name="sports" checked >football
+        <input type="checkbox" name="sports">hockey
+        <input type="checkbox" name="sports">tennis
+    </form>
+</body>
+</html>

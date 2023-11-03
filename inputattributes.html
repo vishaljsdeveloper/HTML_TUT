@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inputattributes</title>
+</head>
+<body>
+    <form>
+        <!--value attribute : pehle se koi value dalna-->
+        <div>
+            Name:
+            <input type="text" value="vishal"> <br>
+        </div>
+        <div>
+            submit:
+            <input type="submit" value="go"> <br>
+        </div>
+        <!--readonly :only read-->
+        <div>
+            Name:
+            <input type="text" value="vishal" readonly> <br>
+        </div>
+        <!--disabled : same as readonly bas isme fade ho jayga-->
+        <div>
+            Name:
+            <input type="text" value="vishal" disabled> <br>
+        </div>
+        <!--size : kitna bara box hoga . number of character ke  visible ke barabar size show hoga-->
+        <div>
+            Name:
+            <input type="text" value="vishal" size="100"> <br>
+        </div>
+        <!--maxlength : maximum kitna character enter hoga-->
+        <div>
+            Name:
+            <input type="text" value="vishal" maxlength="25" size="50"> <br>
+        </div>
+        <!--min or max : it is not used in text. basically it is used in number,range or date etc.-->
+        <div>
+            Number is:
+            <input type="number" min="10" max="20"> <br>
+        </div>
+        <!--placeholder: it is used to give hints-->
+        <div>
+            Name:
+            <input type="text" placeholder="enter name"> <br>
+        </div>
+        <!--required : to make it compulsory/mandatory/obligatory-->
+        <div>
+            Name:
+            <input type="text" placeholder="name" required> <br>
+        </div>
+        <!-- step : to inreace the number step wise like +@ +% etc -->
+        <div>
+            Name:
+            <input type="number" value="1" step="2"> <br>
+        </div>
+        <!--autofocus : page open hote hi cursor waha chala jayga likhne:
+        autocomplete : 1 form ek bae submit kar chuke ho usko dubara bharne jaoge to wo hint dega.. 
+        usko hum on ya of kar sakte hai. default me on hota hai-->
+        <div>
+            Name:
+            <input type="text" value="" autofocus > <br>
+        </div>
+        <div>
+            Name:
+            <input type="text" value="" autocomplete="on"> <br>
+        </div>
+        <!--name : most important for backend also .work as an identifier-->
+        <div>
+           first Name:
+            <input type="text" value="" name="first_name"> <br>
+        </div>
+        <div>
+           last Name:
+            <input type="text" value="" name="lastname"> <br>
+        </div>
+        <!--html text area :-->
+     <textarea>
+
+     </textarea>
+     <br>
+     <textarea rows="20" cols="40" placeholder="enter description"> hello </textarea>
+     <br>
+     <!--use image as submit button by input type=image-->
+     <textarea rows="30" cols="30" placeholder="this is textarea">
+
+     </textarea>
+     <input type="image" src="https://www.behalacollege.in/pg/images/btn.png" width="150" height="150">
+    </form>
+</body> 
+</html>

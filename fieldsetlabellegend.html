@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fieldsetlabellegend</title>
+</head>
+
+<body>
+    <form>
+        <!--label-->
+        <div>
+            <label for="fname">First Name:</label>
+            <!--label sahi tarika hai na ki direct "name" likhna
+            or label se hum input ko connect kar sakte hai
+        ji se ki agar label pe bhi click kare to focus input type pe chala jaat -->
+            <input type="text" name="first_name" id="fname">
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+        <hr>
+        <!--fieldset-->
+        <fieldset>
+            <label for="fname">First Name</label>
+            <input type="text" name="first_name" id="fname">
+            <label for="lname">Last Name</label>
+            <input type="text" name="Last_name" id="lname">
+        </fieldset>
+        <fieldset>
+            <label for="address">Address</label>
+            <input type="text" name="address" id="address">
+            <label for="Mobile">Mobile No</label>
+            <input type="text" name="Mobile" id="Mobile">
+        </fieldset>
+        <input type="submit">
+        <br><br><br>
+        <hr>
+        <!--legend-->
+        <fieldset>
+            <legend>Basic information</legend>
+            <label for="fname">First Name</label>
+            <input type="text" name="first_name" id="fname">
+            <label for="lname">Last Name</label>
+            <input type="text" name="Last_name" id="lname">
+        </fieldset>
+        <fieldset>
+            <legend>Other Information</legend>
+            <label for="address">Address</label>
+            <input type="text" name="address" id="address">
+            <label for="Mobile">Mobile No</label>
+            <input type="text" name="Mobile" id="Mobile">
+        </fieldset>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
